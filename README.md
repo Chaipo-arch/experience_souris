@@ -40,12 +40,11 @@ project_root/
 - **Python 3.x** (tested with Python 3.13+)
 - **Required libraries**:
   - `matplotlib`
-  - `numpy`
 
 ### Installation of Dependencies
 
 ```bash
-pip install matplotlib numpy
+pip install matplotlib
 ```
 
 ## Usage Instructions
