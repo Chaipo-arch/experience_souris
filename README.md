@@ -7,8 +7,6 @@
 
 This project analyzes microbiome data from mice. It reads CSV files containing bacterial counts from different sample types (fecal, cecal, ileal) and generates **plots** and **CSV outputs** for each type.
 
-The project is modular, making it easy to read, maintain, and extend.
-
 ---
 
 ## 🔹 Features
@@ -45,7 +43,7 @@ project/
 2. Install required packages:
 
 ```bash
-pip install matplotlib numpy
+pip install matplotlib
 ```
 
 3. Place your CSV files in the `input/` folder.
@@ -144,29 +142,9 @@ python main.py
 
 ---
 
-## 🧑‍🏫 For Beginners
-
-* Each module is **heavily commented** in English
-* Easy to see **what each part does**
-* You can run it as-is or modify for your own experiments
-
----
-
 ## 📈 Example Workflow
 
 1. Put `data_medium.csv` in `input/`
 2. Run `python main.py`
 3. Check `output/` for CSV results
 4. Check `images/` for plots
-
----
-
-## 📌 License
-
-This project is **open-source** and free to use.
-
----
-
-Si tu veux, je peux te faire une **version “super visuelle” du README**, avec **diagramme des modules et flux des données** pour qu’un biologiste ou débutant comprenne encore plus vite le fonctionnement.
-
-Veux‑tu que je fasse ça ?
