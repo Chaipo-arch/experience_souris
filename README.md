@@ -37,7 +37,7 @@ project_root/
 
 ## Prerequisites
 
-- **Python 3.x** (tested with Python 3.8+)
+- **Python 3.x** (tested with Python 3.13+)
 - **Required libraries**:
   - `matplotlib`
   - `numpy`
